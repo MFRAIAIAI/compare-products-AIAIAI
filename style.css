@@ -1,0 +1,191 @@
+body {
+    font-family: 'Modular', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    line-height: 140%;
+}
+
+.comparison-chart {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.product-column {
+    width: 30%;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #ddd;
+   
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #CCCCCC;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: 'Modular' , sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: 'Modular', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.button {
+    font-family: 'Modular' , sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none; /* Removes the underline */
+    font-size: 15px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: 'Modular', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    min-height: 110px;
+}
+
+ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 40px;
+    min-height: 120px;
+}
+.feature1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 40px;
+    min-height: 120px;
+}
+
+.feature img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.feature1 img {
+    width: 90px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.multicon {
+    width: 60px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.feature p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.feature .p strong {
+    font-family: 'Modular' , sans-serif;
+    font-weight: 300;
+    margin-bottom: 20;
+    font-size: 14px;
+}
+
+.feature1 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+strong {
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .comparison-chart {
+        flex-direction: column;
+
+    }
+
+    .product-column {
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: 'Modular';
+    src: url('https://aiaiai.cdn.prismic.io/aiaiai/ZyDw768jQArTz-e6_Modular-LightExtended.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Modular';
+    src: url('https://aiaiai.cdn.prismic.io/aiaiai/ZyDw768jQArTz-e7_Modular-MediumExtended.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Modular';
+    src: url('https://aiaiai.cdn.prismic.io/aiaiai/ZyDw7q8jQArTz-e5_Modular-BoldExtended.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Modular';
+    src: url('https://aiaiai.cdn.prismic.io/aiaiai/ZyDw8a8jQArTz-e9_Modular-NormalExtended.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Modular';
+    src: url('https://aiaiai.cdn.prismic.io/aiaiai/ZyDwra8jQArTz-eL_Modular-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
